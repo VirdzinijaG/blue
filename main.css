@@ -1,0 +1,83 @@
+body {
+   background-image: url(./img/blue.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: right;
+   height: 95vh;
+   width: 100%;
+   transform: translate(-1%, -1%);   
+   
+}
+header {
+    background-color: aqua;
+    display: inline-block;
+    width: 1500px;
+    margin-left: calc((100% - 1500px) / 2);
+    margin-top: 20px;
+    position: relative;
+}
+header > p {
+    background-color: blueviolet;
+    float: left;
+}
+
+nav {
+    background-color: burlywood;
+    float: right;
+    margin-top: 15px;
+}
+
+a {
+background-color: crimson;
+}
+
+a:last-of-type {
+background-color: darkgray;
+}
+
+main {
+    background-color: greenyellow;
+    display: inline-block;
+    width: 1500px;
+    margin-left: calc((100% - 1500px) / 2);
+    margin-top: 20px;
+    
+    
+}
+
+.right {
+background-color: darkgreen;
+float: left;
+
+}
+
+h1 {
+background-color: deeppink;
+}
+
+.right > p:first-of-type {
+background-color: mediumblue;
+}
+
+.right > p:last-of-type {
+background-color: mediumspringgreen;
+}
+
+button {
+background-color: yellow;
+}
+
+.left.img {
+    background-color: darksalmon;
+    width: 0;
+    position: absolute;
+    margin: 0;
+    right: 0;
+}
+.left.img-bottom {
+    background-color: brown;
+    width: 0;
+    
+}
+
+
