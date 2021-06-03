@@ -14,7 +14,7 @@ body {
     background-image: url(./img/blue.png);
     display: inline-block;
     width: 100%;
-    height: 100vh;
+    height: 97vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -30,22 +30,31 @@ header {
     transform: translate(-50%, -50%);
 }
 header > p {
-    background-color: blueviolet;
+    color: #244674;
     float: left;
+    font-size: 30px;
 }
 
 nav {
-    background-color: burlywood;
     float: right;
     margin-top: 15px;
 }
 
 a {
-background-color: crimson;
+    color: #244674;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 30px;
 }
 
 a:last-of-type {
-background-color: darkgray;
+    background-color: #244674;
+    color: white;
+    padding-top: 0;
+    padding-bottom: 2px;
+    border-radius: 20px;
+    text-align: center;
+    
 }
 
 main {
@@ -55,43 +64,43 @@ main {
 }
 
 .right {
-background-color: darkgreen;
-float: left;
-position: absolute;
-bottom: 100%;
-transform: translate(50%, -300%);
-
-
-
+    background-color: darkgreen;
+    float: left;
+    position: absolute;
+    bottom: 100%;
+    transform: translate(50%, -50%);
 }
 
 h1 {
-background-color: deeppink;
+    font-size: 200px;
+    color: #244674;
+    position: absolute;
+    bottom: 400%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .right > p:first-of-type {
-background-color: mediumblue;
+    background-color: mediumblue;
 }
 
 .right > p:last-of-type {
-background-color: mediumspringgreen;
+    background-color: mediumspringgreen;
 }
 
 button {
-background-color: yellow;
+    background-color: yellow;
 }
 
 .left.img {
-  position: absolute;
-  width: 0;
-  transform: translate(-50%, -95%);
-  left: 110%;
-  bottom: 100%;
+    position: absolute;
+    width: 0;
+    transform: translate(-50%, -95%);
+    left: 118%;
+    bottom: 100%;
 }
 .left.img-bottom {
-    background-color: brown;
     width: 0;
     position: absolute;
     bottom: 100%;
-    left: 104%;
+    left: 114%;
 }
