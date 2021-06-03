@@ -52,14 +52,16 @@ main {
     display: inline-block;
     width: 800px;
     position: relative;
-    
-    
-    
 }
 
 .right {
 background-color: darkgreen;
 float: left;
+position: absolute;
+bottom: 100%;
+transform: translate(50%, -300%);
+
+
 
 }
 
@@ -81,16 +83,15 @@ background-color: yellow;
 
 .left.img {
   position: absolute;
-  left: 104%;
-  bottom: 100%;
   width: 0;
-  transform: translate(-50%, -85%);
+  transform: translate(-50%, -95%);
+  left: 110%;
+  bottom: 100%;
 }
 .left.img-bottom {
     background-color: brown;
     width: 0;
-}
-
-.img { 
-    ;
+    position: absolute;
+    bottom: 100%;
+    left: 104%;
 }
